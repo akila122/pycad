@@ -1,0 +1,27 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="14">
+            <item index="0" class="java.lang.String" itemvalue="frame-cloud" />
+            <item index="1" class="java.lang.String" itemvalue="frame-azure" />
+            <item index="2" class="java.lang.String" itemvalue="frame-extensions" />
+            <item index="3" class="java.lang.String" itemvalue="frame-messaging" />
+            <item index="4" class="java.lang.String" itemvalue="frame-automation" />
+            <item index="5" class="java.lang.String" itemvalue="frame-utils" />
+            <item index="6" class="java.lang.String" itemvalue="frame-mf2service" />
+            <item index="7" class="java.lang.String" itemvalue="django-filter" />
+            <item index="8" class="java.lang.String" itemvalue="frame_django" />
+            <item index="9" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="10" class="java.lang.String" itemvalue="frame-web-auth" />
+            <item index="11" class="java.lang.String" itemvalue="drf-yasg" />
+            <item index="12" class="java.lang.String" itemvalue="python-Levenshtein" />
+            <item index="13" class="java.lang.String" itemvalue="frame-social-auth" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
