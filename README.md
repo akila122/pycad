@@ -1,2 +1,2 @@
 # pycad
-Autocad automation for a client
+Autocad automation for personal use
