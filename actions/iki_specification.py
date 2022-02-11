@@ -52,6 +52,4 @@ def iki_specification(questions_input_path: str = f"{ROOT_DIR}/iki_config.json",
     with open(output_file, "w") as f:
         f.write(result)
 
-
-if __name__ == "__main__":
-    iki_specification()
+    return result

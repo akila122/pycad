@@ -1,9 +1,9 @@
 import argparse
 import inspect
-import logging
 import actions
+import pprint
 
-logger = logging.getLogger(__name__)
+pp = pprint.PrettyPrinter(indent=4)
 
 # Build parser, so it can be interactively queried for --help
 parser = argparse.ArgumentParser()
@@ -34,11 +34,13 @@ def main():
             break
 
     if not action_to_run:
-        logger.error("Invalid setup.")
+        pprint("Invalid setup.")
         return
 
     kwargs = {k: v for k, v in args.__dict__.items() if k != "action"}
-    action_to_run(**kwargs)
+    result = action_to_run(**kwargs)
+    if result:
+        pprint(result)
 
 
 if __name__ == '__main__':

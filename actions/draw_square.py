@@ -16,4 +16,3 @@ def draw_square(start_x: float = 0, start_y: float = 0, size: float = 100):
     square = channel.session.model.AddLightWeightPolyline(square_cords)
     square.Closed = True
     channel.session.model.AddLightWeightPolyline(diagonal_cords)
-
