@@ -1,0 +1,17 @@
+{
+  "inputs": {
+    "Enter number of tecton luminaries: ": "a",
+    "Enter number of emergency tecton luminaries: ": "b",
+    "Enter number of emergency luminaries in back rooms:": "c",
+    "Enter number of MIREL luminaries: ": "d",
+    "Enter number of spots: ": "e"
+  },
+  "outputs": {
+    "f1": "2 if e < 75 else  math.ceil(math.ceil(e/20)/4) + 1",
+    "g": " a + b + c + d + 4*f1",
+    "h": "0 if g < 192 else math.ceil(a / 64)",
+    "em_license": "50 if b+c < 50 else 500 if b+c > 100 else 100",
+    "result": "f'1xLITECOM CCD\\n2xControl Point ED-CCW 1/2/3 LI1/LI2\\n1xSensor ED-EYE\\{f1}xSwitchable Luminaire ED-4RUKS\\n{h}Dimmable Luminaire DALI Expander DIN Rail 89453847-HS\\n1xLITECOM APP EC{em_license}\\n'"
+  },
+  "returns": "result"
+}
