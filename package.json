@@ -1,0 +1,14 @@
+
+{
+  "inputs": {
+   "Ime?": "x",
+    "Prezime?": "y",
+    "Kilaza?": "z"
+  },
+  "outputs": {
+   "m": "'Jeste' if z>100 else 'Nije'",
+    "tekst": "f'Covek {x} {y} {m} debeo'"
+  },
+  "returns": "tekst"
+}
+x

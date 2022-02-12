@@ -2,7 +2,7 @@ from pyautocad import aDouble
 from autocad_session import channel
 
 
-def draw_square(start_x: float = 0, start_y: float = 0, size: float = 100):
+def draw_square(start_x: float = 0, start_y: float = 0, size: float = 100000):
     square_cords = aDouble(
         start_x, start_y,
         start_x + size, start_y,
