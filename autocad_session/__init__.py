@@ -16,7 +16,7 @@ class Channel(object):
                 session.prompt("Python connected!")
             except OSError:
                 raise Exception("Could not connect to the AUTOCAD process. Please start AUTOCAD before running the script.")
-
+        return self._session
 
 if Channel.instance is None:
     Channel.instance = Channel()

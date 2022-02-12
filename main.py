@@ -34,13 +34,13 @@ def main():
             break
 
     if not action_to_run:
-        pprint("Invalid setup.")
+        pp.pprint("Invalid setup.")
         return
 
     kwargs = {k: v for k, v in args.__dict__.items() if k != "action"}
     result = action_to_run(**kwargs)
     if result:
-        pprint(result)
+        pp.pprint(result)
 
 
 if __name__ == '__main__':
